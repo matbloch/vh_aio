@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
     libffi-dev \
     python-dev \
     python-pip \
+    python-opencv \ 
     python-numpy \
     python-nose \
     python-scipy \
