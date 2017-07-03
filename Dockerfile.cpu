@@ -22,3 +22,6 @@ RUN apt-get update && apt-get install -y \
     zip \
 	graphviz \
 && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# install lmdb (fast database. depends on libffi-dev, python-dev, build-essential; requires pip for installation).
+RUN pip install lmdb
