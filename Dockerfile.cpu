@@ -25,3 +25,6 @@ RUN apt-get update && apt-get install -y \
 
 # install lmdb (fast database. depends on libffi-dev, python-dev, build-essential; requires pip for installation. lmdb python not available through apt-get.floydhub/dl-docker:cpu only installs c-version).
 RUN pip install lmdb
+
+# install pydot (again?). xx this may need changing
+pip install pydot
