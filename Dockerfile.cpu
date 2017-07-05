@@ -27,4 +27,4 @@ RUN apt-get update && apt-get install -y \
 RUN pip install lmdb
 
 # install pydot (again?). xx this may need changing
-pip install pydot
+RUN pip install pydot
